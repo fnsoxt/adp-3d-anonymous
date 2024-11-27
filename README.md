@@ -50,9 +50,6 @@ We provide an example with [PDB:7PZT](https://www.rcsb.org/structure/7PZT). We g
 python model_refinement.py --outdir /path/to/output/directory --mrc data/mrcs/7pzt_2.0A.mrc --ma-cif data/cifs/7pzt_MA_2.0A.cif --cif data/cifs/7pzt.cif
 ```
 
-In the output directory, you will find a plot showing the completeness of the model vs. RMSD:
-![rmsd](images/rmsd_ca_vs_completeness.png)
-
 ## Troubleshooting
 
 *Failed to resolve 'chroma-weights.generatebiomedicines.com'*
